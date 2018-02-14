@@ -24,7 +24,7 @@ while i <= 9:
             break
         else:
             # print("{} * {} = {}".format(i, j, i*j), end=" ")
-            print("%d * %d = %2d" % (i, j, i*j), end=" ")
+            print("%d * %d = %2d" % (j, i, i*j), end=" ")
         j += 1
     i += 1
 
