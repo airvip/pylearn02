@@ -13,5 +13,5 @@ li_r = [32, 24, 19, 55, 30, 22, 8][l:]
 print(li_r)
 
 l_sort = []
-
-print(l_sort.append())
+l_sort.append(1)
+print(l_sort)
