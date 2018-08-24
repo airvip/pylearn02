@@ -20,9 +20,28 @@ def quick_sort(nums, start, end):
             nums[j] = nums[i]
         # 做完第一轮比较之后,列表被分成了两个半区,并且i=j,需要将这个数设置回base
         nums[i] = base
-        quick_sort(nums, start, i - 1)
-        quick_sort(nums, j + 1, end)
+        quick_sort(nums, start, i - 1)  # 前半部分
+        quick_sort(nums, j + 1, end)  # 后半部分
     return nums
+
+'''
+def partition(nums, l, r):
+    x = nums[r]
+    i = l - 1
+    for j in range(l, r):
+        if nums[j] <= x:
+            i += 1
+            nums[i], nums[j] = nums[j], nums[i]
+    nums[i + 1], nums[r] = nums[r], nums[i + 1]
+    return i + 1
+
+def quick_sort(nums, l, r):
+    if l < r:
+        q = partition(nums, l, r)
+        quick_sort(nums, l, q - 1)
+        quick_sort(nums, q + 1, r)
+    return nums
+'''
 
 
 if __name__ == "__main__":
