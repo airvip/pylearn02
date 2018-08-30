@@ -5,13 +5,15 @@
 # print(list(range(0,-1,-1)))
 # print(list(range(1,-1,-1)))
 
-l = len( [32, 24, 19, 55, 30, 22, 8]) // 2
-print(l)
-li_l = [32, 24, 19, 55, 30, 22, 8][:l]
-print(li_l)
-li_r = [32, 24, 19, 55, 30, 22, 8][l:]
-print(li_r)
+# l = len( [32, 24, 19, 55, 30, 22, 8]) // 2
+# print(l)
+# li_l = [32, 24, 19, 55, 30, 22, 8][:l]
+# print(li_l)
+# li_r = [32, 24, 19, 55, 30, 22, 8][l:]
+# print(li_r)
+#
+# l_sort = []
+# l_sort.append(1)
+# print(l_sort)
 
-l_sort = []
-l_sort.append(1)
-print(l_sort)
+print(list(range(10,11)))
