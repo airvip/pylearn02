@@ -5,6 +5,7 @@
 def bucket_sort(nums):
     max_num = max(nums)
     bucket = [ 0 ] * (max_num + 1)
+    print(max_num + 1)
     for i in nums:
         bucket[i] += 1
 
