@@ -4,7 +4,7 @@
 
 import math
 
-def radix_sort(nums, radix=10):
+def radix_sort(nums, radix=4):
     print(math.log(max(nums), radix))
     print(math.ceil(math.log(max(nums), radix)))
     K = int(math.ceil(math.log(max(nums), radix)))
