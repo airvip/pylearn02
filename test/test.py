@@ -18,6 +18,9 @@
 
 # print(list(range(10,11)))
 
-for i in range(2):
-    for num in [23, 34]:
-        print( int(num%(10**(i+1)) / 10 ** i))
+# for i in range(2):
+#     for num in [23, 34]:
+#         print( int(num%(10**(i+1)) / 10 ** i))
+
+print(7 // 2)
+print(list(range(3)))
