@@ -6,13 +6,17 @@ def cocktail_sort(nums):
     length = len(nums)
     for i in range(length // 2):
         # 将最大值排到队尾
+        print('将最大值调整到末尾')
         for j in range(i, length - 1 - i):
             if nums[j] > nums[j + 1]:
                 nums[j],nums[j + 1] = nums[j + 1],nums[j]
+            print(nums)
         # 将最小值排到队首
+        print('将最小值调整到乱序的开始')
         for j in range(length - 2 - i, i, -1):
             if nums[j] < nums[j - 1]:
                 nums[j],nums[j - 1] = nums[j - 1],nums[j]
+            print(nums)
     return nums
 
 if __name__ == "__main__":
