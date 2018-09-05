@@ -16,4 +16,8 @@
 # l_sort.append(1)
 # print(l_sort)
 
-print(list(range(10,11)))
+# print(list(range(10,11)))
+
+for i in range(2):
+    for num in [23, 34]:
+        print( int(num%(10**(i+1)) / 10 ** i))
