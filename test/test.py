@@ -22,5 +22,9 @@
 #     for num in [23, 34]:
 #         print( int(num%(10**(i+1)) / 10 ** i))
 
-print(7 // 2)
-print(list(range(3)))
+# print(7 // 2)
+# print(list(range(3)))
+
+import re
+
+print(re.search('url\("//(.*)\.webp"\)','background-image: url("//p9.pstatp.com/weili/l/199219154695487496.webp");').group(1))
