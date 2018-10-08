@@ -29,4 +29,4 @@
 
 # print(re.search('url\("//(.*)\.webp"\)','background-image: url("//p9.pstatp.com/weili/l/199219154695487496.webp");').group(1))
 
-print(list(range(0)))
+print(list(range(1,95)))
